@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <title>Log in</title>
+  </head>
+
+  <body>
+    <div class="d-flex justify-content-center align-items-center my-auto">
+      <div class="login-container">
+        <div class="login-form">
+          <div class="p-5">
+            <p class="text-header mb-0">Welcome back!</p>
+            <p class="text-second">Enter your Credentials to access your account</p>
+            <form style="margin-top: 40px">
+              <div class="row justify-content-center gy-3">
+                <div class="col-md-12">
+                  <label for="email" class="form-label text-input-header mb-0">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email" />
+                </div>
+                <div class="col-md-12">
+                  <div class="d-flex justify-content-between">
+                    <label for="email" class="form-label text-input-header mb-0">Password</label>
+                    <a href="#" class="forgat-password text-decoration-none align-items-end d-flex">forgot password</a>
+                  </div>
+                  <input type="password" class="form-control" id="password" placeholder="Password" />
+                </div>
+                <div class="col-md-12">
+                  <div class="form-check text-input-header gx-1">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label" for="flexCheckDefault">Remember for 30 days</label>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <button type="submit" class="btn signUp-button btn text-button w-100">Login</button>
+                </div>
+                <div class="col-md-12 my-3">
+                  <div class="text-center">
+                    <span>Or</span>
+                  </div>
+                </div>
+                <div class="col-lg-6 gy-0">
+                  <button type="submit" class="btn social-button w-100">
+                    <span class="d-flex justify-content-center align-items-center gap-2">
+                      <img src="./resources/google.png" style="width: 24px; height: 24px" alt="google" />
+                      Sign in with google</span
+                    >
+                  </button>
+                </div>
+                <div class="col-lg-6 gy-2 gy-lg-0">
+                  <button type="submit" class="btn social-button w-100">
+                    <span class="d-flex justify-content-center align-items-center gap-2">
+                      <img src="./resources/apple.png" style="width: 24px; height: 24px" alt="apple" /> Sign
+                      in with Apple</span
+                    >
+                  </button>
+                </div>
+                <div class="col-md-12 d-flex justify-content-center">
+                  <p class="text-input-header mb-0 mt-3">
+                    Don’t have an account? <a href="./index.html" class="sign-in-link">Sign Up</a>
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="login-image"></div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
